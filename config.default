@@ -24,6 +24,9 @@ HADOLINT_VERSION=1.18.0
 # https://github.com/helm/helm/releases
 HELM_VERSION=2.17.0
 
+# https://github.com/helm/helm/releases
+HELM3_VERSION=3.4.2
+
 # https://www.npmjs.com/package/junit-merge
 JUNIT_MERGE_VERSION=2.0.0
 
@@ -51,8 +54,8 @@ CIRCLECI_USER=circleci
 
 # Application environment
 APPLICATION_DESCRIPTION="Base image for performing CI/CD operations in CircleCI"
-GOOGLE_PROJECT_ID=planet-4-151612
-MAINTAINER="Raymond Walker <raymond.walker@greenpeace.org>"
+GOOGLE_PROJECT_ID=jendevops1
+MAINTAINER="Raymond Walker <jencub@gmail.com>"
 
 # Container registry
 NAMESPACE=gcr.io
